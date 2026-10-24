@@ -1,0 +1,30 @@
+# stellar.toml for the yXLM copycat token
+# Model: the real yXLM issued by Ultra Capital (ultracapital.xyz),
+# issuer GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55, created 2021-03-16.
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+ACCOUNTS = [ "GCWL36NETCN64IUTFDNQBTO7P6T4WOLTYRHTQXAGVTZ476M5F5NYLP7D", "GDSH56M547LTVG7IEJHPX6TX3XYJILA66FKOWN6X23LPPQZQO56IT7LM",]
+VERSION = "2.2.0"
+
+[[CURRENCIES]]
+code = "yXLM"
+issuer = "GCWL36NETCN64IUTFDNQBTO7P6T4WOLTYRHTQXAGVTZ476M5F5NYLP7D"
+name = "yXLM"
+image = "https://roniiii-cpu.github.io/stellar-token/yxlm-clone/yxlm-logo.png"
+desc = "yXLM is an interest earning XLM tethered token. Earn interest on your XLM by holding yXLM. yXLM are liquid tokens that you can trade, redeem or send at any time. 1 yXLM is always redeemable for 1 XLM through Ultra Capital anchor."
+conditions = "The interest share is distributed daily to yXLM holders. The APY rates are published at ultracapital.xyz/assets and may change depending on market conditions."
+redemption_instructions = "Redeemable through any SEP-24 compliant Stellar wallet such as LOBSTR, StellarTerm or StellarX."
+display_decimals = 7
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+anchor_asset = "XLM"
+is_unlimited = false
+status = "live"
+
+[DOCUMENTATION]
+ORG_NAME = "Ultra Capital LLC"
+ORG_DBA = "Ultra Capital"
+ORG_URL = "https://ultracapital.xyz/"
+ORG_LOGO = "https://roniiii-cpu.github.io/stellar-token/yxlm-clone/yxlm-logo.png"
+ORG_OFFICIAL_EMAIL = "hello@ultracapital.xyz"
+ORG_SUPPORT_EMAIL = "support@ultracapital.xyz"
